@@ -35,7 +35,7 @@ h1 {
 
 .item-sidebar {
     grid-area: sidebar;
-    background-color: #128870;
+    background-image: url("wheat.png");
     border-radius: 15px;
     margin-right: 5px;
 }
