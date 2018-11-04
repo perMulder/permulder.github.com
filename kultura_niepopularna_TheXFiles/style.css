@@ -104,3 +104,8 @@ border-bottom: 2px dotted #666666;
 .itsaprank:last-child {
     border-bottom: none;
 }
+
+a {
+    text-decoration: none;
+    color: white;
+}
