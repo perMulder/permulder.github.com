@@ -59,7 +59,7 @@ h1 {
 }
 
 .kill_me {
-    width: 100px;
+    width: 16.6%;
     display: flex;
     justify-content: center;
     border-right: 2px dotted #666666;
