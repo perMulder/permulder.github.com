@@ -59,11 +59,10 @@ h1 {
 }
 
 .kill_me {
-    width: 20%;
+    width: 100px;
     display: flex;
     justify-content: center;
     border-right: 2px dotted #666666;
-    height: 1rem;
 }
 
 .kill_me:hover {
