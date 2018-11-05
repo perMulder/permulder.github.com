@@ -112,8 +112,8 @@ a {
 
 .message-box {
     position: fixed;
-    top: 10vh;
-    left: 10vw;
+    top: 5vh;
+    left: 50vw;
     width: 50%;
     height: 20vh;
     background-image: url("textured_paper.png");
