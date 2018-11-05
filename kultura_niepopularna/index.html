@@ -7,6 +7,9 @@
     <meta name="description" content="Stronka poświęcona kulturze, rżyciu i nie tylko."/>
 </head>
 <body>
+    <div class="message-box">
+        <button onclick="hideMessageBox()">Click me</button>
+    </div>
     <h1><center>Kultura Niepopularna</center></h1>
     <div class="grid-container">
         <div class="item-header">
@@ -29,5 +32,10 @@
         </div>
         <div class="item-footer">Wszelkie prawa zastrzeżone (nie żebym miał prawa do użytych jpg hehe) 2018 &copy</div>
     </div>
+    <script> 
+        function hideMessageBox(){
+        document.getElementsByClassName('message-box')[0].style.display = "none";
+        }
+    </script>
  </body>
  </html>
