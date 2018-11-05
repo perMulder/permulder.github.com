@@ -116,7 +116,7 @@ a {
     left: 10vw;
     width: 50%;
     height: 20vh;
-    background-color: white;
+    background-color: darkgray;
     display: block;
     border-radius: 20px;
 }
@@ -124,5 +124,4 @@ a {
 .message {
     font-size: 23px;
     color: white;
-    background-color: darkgrey;
 }
