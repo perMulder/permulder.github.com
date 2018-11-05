@@ -116,7 +116,7 @@ a {
     left: 10vw;
     width: 50%;
     height: 20vh;
-    background-image: wheat.png;
+    background-image: url("wheat.png");
     display: block;
     border-radius: 20px;
 }
