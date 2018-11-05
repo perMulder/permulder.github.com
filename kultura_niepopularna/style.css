@@ -109,3 +109,14 @@ a {
     text-decoration: none;
     color: white;
 }
+
+.message-box{
+    position: fixed;
+    top: 10vh;
+    left: 30vw;
+    width: 40vw;
+    height: 50vh;
+    background-color: #666666;
+    border-radius: 10%;
+    display: block;
+}
