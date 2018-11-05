@@ -110,7 +110,7 @@ a {
     color: white;
 }
 
-.message-box{
+.message-box {
     position: fixed;
     top: 10vh;
     left: 10vw;
@@ -118,6 +118,11 @@ a {
     height: 20vh;
     background-color: white;
     display: block;
+    border-radius: 20px;
 }
 
-
+.message {
+    font-size: 23px;
+    color: white;
+    background-color: black;
+}
