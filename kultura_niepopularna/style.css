@@ -113,7 +113,7 @@ a {
 .message-box{
     position: fixed;
     top: 10vh;
-    left: 30vw;
+    left: 10vw;
     width: 90%;
     height: 20vh;
     background-color: white;
