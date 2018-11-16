@@ -33,6 +33,11 @@ h1 {
     flex-direction: row;
 }
 
+.insidemenu {
+    background-image: url("wheat.png");
+    height: 15px;
+}
+
 .item-sidebar {
     grid-area: sidebar;
     background-image: url("wheat.png");
