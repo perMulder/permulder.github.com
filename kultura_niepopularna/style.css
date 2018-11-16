@@ -36,6 +36,7 @@ h1 {
 .insidemenu {
     background-image: url("wheat.png");
     height: 15px;
+    list-style-type: none;
 }
 
 .item-sidebar {
