@@ -37,6 +37,7 @@ h1 {
     background-image: url("wheat.png");
     height: 15px;
     list-style-type: none;
+    display: block;
 }
 
 .item-sidebar {
