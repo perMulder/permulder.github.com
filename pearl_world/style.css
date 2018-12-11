@@ -1,0 +1,78 @@
+body {
+    background-image: url(fancy-cushion.png);
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto";
+}
+
+#title {
+    font-size: 4rem;
+    text-align: center;
+    font-family: "Roboto";
+    color: white;
+}
+
+.grid {
+    display: grid;
+    grid-template-areas:
+    "topmenu topmenu topmenu"
+    "content content content"
+    "content content content"
+    "footer footer footer";
+}
+
+.topmenu {
+    display: flex;
+    grid-area: topmenu;
+    background-color: black;
+    color: white;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 1rem;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.option {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width: 25%;
+    min-height: 2rem;
+    font-size: 20px;
+    border-right: 2px dotted white;
+}
+
+.option:hover {
+cursor: pointer;
+background-color: gray;
+border-radius: 10px;
+}
+
+.content {
+    background-color: white;
+    color: black;
+    grid-area: content;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 1rem;
+}
+    
+.heading {
+    color: black;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    grid-area: footer;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 1rem;
+    justify-content: center;
+    align-content: center;
+    border-radius: 10px;
+}
