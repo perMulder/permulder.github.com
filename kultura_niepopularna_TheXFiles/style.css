@@ -1,0 +1,115 @@
+body {
+    background-image: url("dark-grey-terrazzo.png");
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+h1 {
+    color: white;
+    font-size: 75px;
+    font-family: sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    color: white;
+    font-size: 30px;
+    width: calc(100%-20%);
+    grid-template-areas:
+    "header header"
+    "sidebar content"
+    "footer footer";
+    padding: 0 10%;
+    grid-gap: 0.5em;
+}
+
+.item-header {
+    grid-area: header;
+    background-image: url("wheat.png");
+    margin-bottom: 7px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.item-sidebar {
+    grid-area: sidebar;
+    background-image: url("wheat.png");
+    border-radius: 15px;
+    margin-right: 5px;
+}
+
+.item-content {
+    grid-area: content;
+    background-color: #F1F1F1;
+    color: black;
+    background-image: url("textured_paper.png");
+    border-radius: 10px;
+}
+
+.item-footer {
+    grid-area: footer;
+    background-color: #0E0E0E;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    margin-top: 7px;
+}
+
+.kill_me {
+    width: 16.6%;
+    display: flex;
+    justify-content: center;
+    border-right: 2px dotted #666666;
+}
+
+.kill_me:hover {
+    background-color: grey;
+    opacity: 0.8;
+    cursor: pointer;
+    border-radius: 20px;
+    border-right: 2px dotted #666666;
+}
+
+.itsaprank {
+display: flex;
+justify-content: center;
+padding: 10px;
+border-bottom: 2px dotted #666666;
+}
+
+.itsaprank:hover {
+    background-color: grey;
+    opacity: 0.8;
+    border-radius: 15px;
+    cursor: pointer;
+    border-bottom: 2px dotted #666666;
+}
+
+#star {
+    border-top: 2px dotted #666666;
+}
+
+.pls {
+    display: flex;
+    justify-content: center;
+}
+
+.kill_me:last-child {
+    border-right: none;
+}
+
+.itsaprank:last-child {
+    border-bottom: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nudes {
+    width: 400px;
+}
