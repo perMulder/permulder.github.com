@@ -33,6 +33,13 @@ h1 {
     flex-direction: row;
 }
 
+.insidemenu {
+    background-image: url("wheat.png");
+    height: 15px;
+    list-style-type: none;
+    display: block;
+}
+
 .item-sidebar {
     grid-area: sidebar;
     background-image: url("wheat.png");
@@ -103,4 +110,31 @@ border-bottom: 2px dotted #666666;
 
 .itsaprank:last-child {
     border-bottom: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.message-box {
+    display: flex;
+    position: fixed;
+    top: 5vh;
+    left: 3vh; 
+    width: 50%;
+    height: 20vh;
+    background-image: url("textured_paper.png");
+    display: block;
+    border-radius: 20px;
+}
+
+.message {
+    font-size: 23px;
+    color: black;
+    justify-content: center;
+}
+
+.button {
+    justify-content: center;
 }
