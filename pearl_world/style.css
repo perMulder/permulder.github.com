@@ -85,3 +85,7 @@ a:visited {
     text-decoration: none;
     color: white;
 }
+
+p {
+    padding: 2rem;
+}
