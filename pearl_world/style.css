@@ -15,10 +15,9 @@ body {
 .grid {
     display: grid;
     grid-template-areas:
-    "topmenu topmenu topmenu"
-    "content content content"
-    "content content content"
-    "footer footer footer";
+    "topmenu"
+    "content"
+    "footer";
 }
 
 .topmenu {
@@ -76,4 +75,3 @@ border-radius: 10px;
     align-content: center;
     border-radius: 10px;
 }
-
