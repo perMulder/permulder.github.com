@@ -108,3 +108,7 @@ p {
 ul {
     font-size: 21px;
 }
+
+.about_us {
+    display: flex;
+}
