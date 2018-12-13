@@ -95,6 +95,8 @@ p {
 }
 
 .vase {
-    display: block;
-    width: 100%;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
 }
