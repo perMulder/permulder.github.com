@@ -103,3 +103,7 @@ p {
     align-items: center;
     flex-direction: column;
 }
+
+ul {
+    font-size: 21px;
+}
