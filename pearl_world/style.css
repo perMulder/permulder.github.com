@@ -111,6 +111,6 @@ ul {
 
 .about_us {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
 }
